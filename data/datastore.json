@@ -2,77 +2,77 @@
   "domains": {
     "www.bbc.co.uk": {
       "rating": 1,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "www.washingtonpost.com": {
       "rating": 1,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "www.badscience.net": {
       "rating": 1,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "www.snopes.com": {
       "rating": 1,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "www.businessinsider.com": {
       "rating": 1,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "stackoverflow.com": {
       "rating": 1,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "ABCnews.com.co": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "Bloomberg.ma": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "cnn-trending.com": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "DrudgeReport.com.co": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "usatoday.com.co": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "washingtonpost.com.co": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "Celebtricity": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "empirenews.net": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     },
     "yournewswire.com": {
       "rating": 0.0001,
-      "views": 20,
+      "visits": 20,
       "lastUpdated": 0
     }
   }

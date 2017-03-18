@@ -3,9 +3,23 @@ var DATA = null,
     CURRENT_URL = null,
     CURRENT_TAB = -1,
     CURRENT_WINDOW = -1,
-    TRUMP_BUSTER_URL = 'steve.aws.com';
+    TRUMP_BUSTER_URL = 'steve.aws.com',
+    VERBOSE = false;
+
+function msg(text) {
+    if(VERBOSE) {
+        alert(text);
+    }
+}
+
+function log(text) {
+    if(VERBOSE) {
+        console.log(text);
+    }
+}
 
 function loadData(done) {
+    log('Start loading data...');
     var xhr = new XMLHttpRequest();
     xhr.open('GET', chrome.extension.getURL('data/datastore.json'), true);
     xhr.onreadystatechange = function () {
@@ -86,17 +100,17 @@ function ratePage(domainsLinked) {
     if(!existingInfo) {
         DATA.domains[domainInfo.domain] = {
             rating: rating,
-            views: 1,
-            lastChanged: new Date().getTime()
+            visits: 1,
+            lastUpdated: new Date().getTime()
         };
-        //alert('New Domain rating created ' + domainInfo.domain + ' is ' + rating);
+        msg('New Domain rating created ' + domainInfo.domain + ' is ' + rating);
     } else {
-        var aAverage = existingInfo.views * existingInfo.rating;
-        existingInfo.rating = (aAverage + rating) / (existingInfo.views + 1);
+        var aAverage = existingInfo.visits * existingInfo.rating;
+        existingInfo.rating = (aAverage + rating) / (existingInfo.visits + 1);
         existingInfo.rating = capNumber(existingInfo.rating, 0, 1);
-        existingInfo.lastChanged = new Date().getTime();
-        existingInfo.views++;
-        //alert('Domain rating adjusted - new rating for ' + domainInfo.domain + ' is ' + existingInfo.rating);
+        existingInfo.lastUpdated = new Date().getTime();
+        existingInfo.visits++;
+        msg('Domain rating adjusted - new rating for ' + domainInfo.domain + ' is ' + existingInfo.rating);
     }
 }
 
@@ -104,14 +118,18 @@ var updating = false,
     dumping = false;
 
 function onTabChange(tab) {
-    if (tab.url && tab.highlighted && !updating) {
-        updating = true;
-        CURRENT_URL = tab.url;
-        calculateRating(tab.url, function (rating) {
-            setRating(rating, function () {
-                updating = false;
+    if(tab && !updating) {
+        if (tab.url && tab.highlighted) {
+            updating = true;
+            CURRENT_URL = tab.url;
+            calculateRating(tab.url, function (rating) {
+                log('Rating of ' + rating + ' set for ' + getDomainFromUrl(tab.url));
+                setRating(rating, function () {
+                    updating = false;
+                    log('Done updating.');
+                });
             });
-        });
+        }
     }
 }
 
@@ -129,24 +147,30 @@ function onTabActivated(info) {
     CURRENT_WINDOW = info.windowId;
     tabbing = true;
 
+    log('Setting tab activation timeout...');
     setTimeout(function() {
+        log('Registering tab activation event...');
         chrome.tabs.get(info.tabId, onTabChange);
     }, 500);
 
 }
 
+function post(data, done) {
+    log('Posting to ' + TRUMP_BUSTER_URL);
+    // var req = new XMLHttpRequest();
+    // req.open("POST", TRUMP_BUSTER_URL);
+    // req.setRequestHeader("Content-Type", "application/json");
+    // req.send(JSON.stringify(data));
+    done();
+}
+
 function sendDump() {
     if (DATA && !dumping) {
         dumping = true;
-        try {
-            alert('Trumps dumped...');
-            //var xhr = new XMLHttpRequest();
-            //xhr.open('POST', TRUMP_BUSTER_URL, true);
-            //xhr.send();
-        } catch (err) {
-            alert(err);
-        }
-        dumping = false;
+        post(DATA, function() {
+            msg('Trumps dumped...');
+            dumping = false;
+        });
     }
 }
 
@@ -175,9 +199,9 @@ function downRate() {
     if(r) {
         r.rating = 0.001;
         r.visits = 1;
-        r.lastChanged = new Date().getTime();
+        r.lastUpdated = new Date().getTime();
         refreshPage();
-        alert('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 0.1%');
+        msg('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 0.1%');
     }
 }
 
@@ -186,9 +210,9 @@ function upRate() {
     if(r) {
         r.rating = 1;
         r.visits = 1;
-        r.lastChanged = new Date().getTime();
+        r.lastUpdated = new Date().getTime();
         refreshPage();
-        alert('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 100%')
+        msg('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 100%')
     }
 }
 
