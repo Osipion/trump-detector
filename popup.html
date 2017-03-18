@@ -7,19 +7,61 @@
         body {
             font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
             font-size: 100%;
+            width: 150px;
+            align-content: center;
+        }
+        html {
+            width: 150px;
+            align-content: center;
+        }
+        #layoutMain {
+            margin-left: auto;
+            margin-right: auto;
+            align-content: center;
+            text-align: center;
         }
         #status {
             white-space: pre;
             text-overflow: ellipsis;
             overflow: hidden;
             max-width: 400px;
+            text-align: center;
+        }
+        #rating {
+            white-space: pre;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 400px;
+            text-align: center;
+        }
+        #buttonLayout {
+            text-align: center;
+            align-items: center;
+        }
+        #btnBlackList {
+            background: url('res/down-rate.png') no-repeat;
+            height: 38px;
+            width: 38px;
+            border:none;
+        }
+        #btnWhiteList {
+            background: url('res/up-rate.png') no-repeat;
+            height: 38px;
+            width: 38px;
+            border:none;
         }
     </style>
 </head>
 <body>
     <script src="popup.js"> </script>
-    <p id="status">Trump Detector</p>
-    <p id="rating">48.2% Bullshit</p>
-    <button id="btnTrumpDump">Start Trump Dump</button>
+    <div id="layoutMain">
+        <p id="status">Trump Detector</p>
+        <p id="rating">48.2% Bullshit</p>
+        <div id="buttonLayout">
+            <button id="btnBlackList"></button>
+            <button id="btnWhiteList"></button>
+        </div>
+        <button id="btnTrumpDump">Start Trump Dump</button>
+    </div>
 </body>
 </html>

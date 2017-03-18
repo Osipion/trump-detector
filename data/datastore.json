@@ -4,9 +4,61 @@
       "rating": 1,
       "views": 20
     },
+    "www.washingtonpost.com": {
+      "rating": 1,
+      "views": 20
+    },
     "www.badscience.net": {
-      "rating": 0.01,
-      "views": 10
+      "rating": 1,
+      "views": 20
+    },
+    "www.snopes.com": {
+      "rating": 1,
+      "views": 20
+    },
+    "www.businessinsider.com": {
+      "rating": 1,
+      "views": 20
+    },
+    "stackoverflow.com": {
+      "rating": 1,
+      "views": 20
+    },
+    "ABCnews.com.co": {
+      "rating": 0.0001,
+      "views": 20
+    },
+    "Bloomberg.ma": {
+      "rating": 0.0001,
+      "views": 20
+    },
+    "cnn-trending.com": {
+      "rating": 0.0001,
+      "views": 20
+    },
+    "DrudgeReport.com.co": {
+      "rating": 0.0001,
+      "views": 20
+    },
+    "usatoday.com.co": {
+      "rating": 0.0001,
+      "views": 20
+    },
+    "washingtonpost.com.co": {
+      "rating": 0.0001,
+      "views": 20
+    },
+    "Celebtricity": {
+      "rating": 0.0001,
+      "views": 20
+    },
+    "empirenews.net": {
+      "rating": 0.0001,
+      "views": 20
+    },
+    "yournewswire.com": {
+      "rating": 0.0001,
+      "views": 20
     }
   }
 }

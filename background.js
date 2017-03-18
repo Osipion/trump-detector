@@ -1,5 +1,6 @@
 var DATA = null,
-    CURRENT_RATING = 0.5;
+    CURRENT_RATING = 0.5,
+    TRUMP_BUSTER_URL = 'steve.aws.com';
 
 function loadData(done) {
     var xhr = new XMLHttpRequest();
@@ -22,14 +23,10 @@ function calculateRating(url, done) {
     var domainRecord = DATA.domains[domain];
 
     if (!domainRecord) {
-        domainRecord = DATA.domains[domain] = {
-            rating: 0.5,
-            badLinks: 0,
-            goodLinks: 0
-        };
+        done(0.5);
+    } else {
+        done(domainRecord.rating);
     }
-
-    done(domainRecord.rating);
 }
 
 function getRating() {
@@ -42,7 +39,7 @@ function setRating(rating, done) {
     } else if (rating >= 0.7) {
         chrome.browserAction.setIcon({path: 'res/good-rating-38.png'});
     } else {
-        chrome.browserAction.setIcon({path: 'res/ok-rating.png'});
+        chrome.browserAction.setIcon({path: 'res/ok-rating-38.png'});
     }
     CURRENT_RATING = rating;
     done();
@@ -81,13 +78,21 @@ function ratePage(domainsLinked) {
         return domainInfo.linkedDomains.indexOf(v) >= 0;
     });
 
-    var sum = ratedDomains.map(function(v) {
-        return DATA.domains[v].rating;
-    }).reduce(function(a, v) {
-        return a + v;
-    });
+    var rating = -1;
 
-    var rating = sum / ratedDomains.length;
+    if(ratedDomains.length < 1) {
+        rating = 0.5;
+    } else {
+        var sum = ratedDomains.map(function (v) {
+            return DATA.domains[v].rating;
+        }).reduce(function (a, v) {
+            return a + v;
+        });
+
+        rating = sum / ratedDomains.length;
+    }
+
+    var existingInfo = DATA.domains[domainInfo.domain];
 
     if(!existingInfo) {
         DATA.domains[domainInfo.domain] = {
@@ -96,7 +101,6 @@ function ratePage(domainsLinked) {
         };
         alert('New Domain rating created ' + domainInfo.domain + ' is ' + rating);
     } else {
-        var existingInfo = DATA.domains[domainInfo.domain];
         var aAverage = existingInfo.views * existingInfo.rating;
         existingInfo.rating = (aAverage + rating) / (existingInfo.views + 1);
         existingInfo.rating = capNumber(existingInfo.rating, 0, 1);
