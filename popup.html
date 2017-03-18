@@ -24,7 +24,6 @@
             white-space: pre;
             text-overflow: ellipsis;
             word-wrap: normal;
-            overflow: hidden;
             max-width: 400px;
             text-align: center;
         }
@@ -34,22 +33,33 @@
             overflow: hidden;
             max-width: 400px;
             text-align: center;
+            word-wrap: normal;
+            background-color: crimson;
+            color: white;
         }
         #buttonLayout {
             text-align: center;
             align-items: center;
         }
         #btnBlackList {
-            background: url('res/down-rate.png') no-repeat;
+            background: url('res/down-rate-2.png') no-repeat;
             height: 38px;
             width: 38px;
             border:none;
+            margin-right: 10px;
         }
         #btnWhiteList {
-            background: url('res/up-rate.png') no-repeat;
+            background: url('res/up-rate-3.png') no-repeat;
             height: 38px;
             width: 38px;
             border:none;
+            margin-left: 10px;
+        }
+        #btnTrumpDump {
+            align-self: stretch;
+            background-color: dodgerblue;
+            color: white;
+            font-size: smaller;
         }
     </style>
 </head>
@@ -62,7 +72,8 @@
             <button id="btnBlackList"></button>
             <button id="btnWhiteList"></button>
         </div>
-        <button id="btnTrumpDump">Start Trump Dump</button>
+        <br>
+        <div id="btnTrumpDump">Send Trump Dump</div>
     </div>
 </body>
 </html>

@@ -7,11 +7,11 @@ function renderBad() {
 }
 
 function renderGood() {
-    document.getElementById('status').innerText = "Almost as good as Trump Steaks!";
+    document.getElementById('status').innerText = "Big League!";
 }
 
 function renderOK() {
-    document.getElementById('status').innerText = "Meh.";
+    document.getElementById('status').innerText = "I don't rate it.";
 }
 
 function renderRating() {

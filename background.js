@@ -1,6 +1,8 @@
 var DATA = null,
     CURRENT_RATING = 0.5,
     CURRENT_URL = null,
+    CURRENT_TAB = -1,
+    CURRENT_WINDOW = -1,
     TRUMP_BUSTER_URL = 'steve.aws.com';
 
 function loadData(done) {
@@ -101,7 +103,7 @@ function ratePage(domainsLinked) {
 var updating = false,
     dumping = false;
 
-function onTabChange(_, _, tab) {
+function onTabChange(tab) {
     if (tab.url && tab.highlighted && !updating) {
         updating = true;
         CURRENT_URL = tab.url;
@@ -111,6 +113,26 @@ function onTabChange(_, _, tab) {
             });
         });
     }
+}
+
+function tabChangeWrapper(_, _, tab) {
+    onTabChange(tab);
+}
+
+function onTabActivated(info) {
+
+    if(CURRENT_TAB === info.tabId && CURRENT_WINDOW === info.windowId) {
+        return;
+    }
+
+    CURRENT_TAB = info.tabId;
+    CURRENT_WINDOW = info.windowId;
+    tabbing = true;
+
+    setTimeout(function() {
+        chrome.tabs.get(info.tabId, onTabChange);
+    }, 500);
+
 }
 
 function sendDump() {
@@ -178,6 +200,7 @@ chrome.runtime.onMessage.addListener(function(request, _) {
 
 loadData(function (data) {
     DATA = JSON.parse(data);
-    chrome.tabs.onUpdated.addListener(onTabChange);
-    chrome.tabs.onCreated.addListener(onTabChange);
+    chrome.tabs.onUpdated.addListener(tabChangeWrapper);
+    chrome.tabs.onCreated.addListener(tabChangeWrapper);
+    chrome.tabs.onActivated.addListener(onTabActivated);
 });
