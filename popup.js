@@ -17,7 +17,7 @@ function renderOK() {
 function renderRating() {
     var rating = BACKGROUND_PAGE.getRating();
     if(rating) {
-        document.getElementById('rating').innerText = (rating * 100.0) + '%';
+        document.getElementById('rating').innerText = (rating * 100.0).toFixed(2) + '%';
         if(rating < 0.3) {
             renderBad();
         } else if(rating >= 0.7) {
@@ -30,12 +30,22 @@ function renderRating() {
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    var btn = document.getElementById('btnTrumpDump');
+    var dumpBtn = document.getElementById('btnTrumpDump');
+    var upRateBtn = document.getElementById('btnWhiteList');
+    var downRateBtn = document.getElementById('btnBlackList');
 
     renderRating();
 
-    btn.addEventListener('click', function() {
+    dumpBtn.addEventListener('click', function() {
         BACKGROUND_PAGE.sendDump();
+    });
+
+    upRateBtn.addEventListener('click', function() {
+        BACKGROUND_PAGE.upRate();
+    });
+
+    downRateBtn.addEventListener('click', function() {
+        BACKGROUND_PAGE.downRate();
     });
 
 });
