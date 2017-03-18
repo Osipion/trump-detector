@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trump Detector",
+  "description": "Detects Trumped up news stories",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "res/ok-rating.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["injectable.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "background",
+    "<all_urls>"
+  ]
+}

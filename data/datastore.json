@@ -1,0 +1,12 @@
+{
+  "domains": {
+    "www.bbc.co.uk": {
+      "rating": 1,
+      "views": 20
+    },
+    "www.badscience.net": {
+      "rating": 0.01,
+      "views": 10
+    }
+  }
+}
