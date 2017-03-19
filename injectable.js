@@ -4,8 +4,13 @@ function getDomainFromUrl(url) {
     return null;
 }
 
+function getLinkArray() {
+    return [].slice.call(document.getElementsByTagName("a"));
+}
+
 function getLinks() {
-    var links = [].slice.call(document.getElementsByTagName("a"));
+
+    var links = getLinkArray();
 
     var uniqLinks = links.map(function (lnk) {
         return getDomainFromUrl(lnk.href);
@@ -22,7 +27,30 @@ function getLinks() {
     });
 }
 
+function highlightBadLinks(linkInfo) {
+    var links = getLinkArray();
+    linkInfo.badLinks.forEach(function(bL) {
+       links.filter(function(l) {
+           return getDomainFromUrl(l.href) == bL;
+       }).forEach(function(l) {
+           l.className = 'fakeNews';
+       })
+    });
+}
+
+function addFakeNewsBanner() {
+
+}
+
 chrome.runtime.sendMessage({
     action: "pageLinks",
     source: getLinks(document)
+});
+
+chrome.extension.onMessage.addListener(function(msg) {
+    if(msg.action === 'markBadContent'){
+        highlightBadLinks(JSON.parse(msg.source));
+    } else if(msg.action === 'addFakeBanner') {
+        addFakeNewsBanner();
+    }
 });

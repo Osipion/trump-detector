@@ -64,9 +64,9 @@ function setRating(rating, done) {
     done();
 }
 
-function ratePage(domainsLinked) {
+function ratePage(domainInfo) {
 
-    if (!domainsLinked) return;
+    if (!domainInfo) return;
 
     var capNumber = function (num, min, max) {
         if (num < min) {
@@ -76,8 +76,6 @@ function ratePage(domainsLinked) {
         }
         return num;
     };
-
-    var domainInfo = JSON.parse(domainsLinked);
 
     var ratedDomains = Object.keys(DATA.domains).filter(function (v) {
         return domainInfo.linkedDomains.indexOf(v) >= 0;
@@ -100,7 +98,7 @@ function ratePage(domainsLinked) {
     var existingInfo = DATA.domains[domainInfo.domain];
 
     if (!existingInfo) {
-        DATA.domains[domainInfo.domain] = {
+        existingInfo = DATA.domains[domainInfo.domain] = {
             rating: rating,
             visits: 1,
             lastUpdated: new Date().getTime()
@@ -114,6 +112,7 @@ function ratePage(domainsLinked) {
         existingInfo.visits++;
         msg('Domain rating adjusted - new rating for ' + domainInfo.domain + ' is ' + existingInfo.rating);
     }
+    return existingInfo;
 }
 
 var updating = false,
@@ -233,9 +232,35 @@ function upRate() {
     }
 }
 
+function markBadContent(domainInfo) {
+    var badLinks = domainInfo.linkedDomains.filter(function(v) {
+        return !!DATA.domains[v] && DATA.domains[v].rating < 0.3;
+    });
+    var o = {
+      badLinks: badLinks
+    };
+    log('requesting bad content marking');
+    chrome.tabs.sendMessage(CURRENT_TAB, {
+        action: 'markBadContent',
+        source: JSON.stringify(o)
+    });
+}
+
+function addFakeBanner() {
+    log('requesting fake news banner add');
+    chrome.tabs.sendMessage(CURRENT_TAB, {
+        action: 'addFakeBanner'
+    });
+}
+
 chrome.runtime.onMessage.addListener(function (request, _) {
-    if (request.action == "pageLinks") {
-        ratePage(request.source);
+    if (request.action == "pageLinks" && request.source) {
+        var domainInfo = JSON.parse(request.source);
+        var rating = ratePage(domainInfo);
+        markBadContent(domainInfo);
+        if(rating.rating < 0.3) {
+            addFakeBanner();
+        }
     }
 });
 

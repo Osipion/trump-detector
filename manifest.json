@@ -19,6 +19,9 @@
       ],
       "js": [
         "injectable.js"
+      ],
+      "css": [
+        "styles.css"
       ]
     }
   ],
