@@ -4,16 +4,18 @@ var DATA = null,
     CURRENT_TAB = -1,
     CURRENT_WINDOW = -1,
     TRUMP_BUSTER_URL = 'somewhere',
-    VERBOSE = false;
+    LAST_DUMP = 0,
+    SHOW_ALERTS = false,
+    VERBOSE = true;
 
 function msg(text) {
-    if(VERBOSE) {
+    if (SHOW_ALERTS) {
         alert(text);
     }
 }
 
 function log(text) {
-    if(VERBOSE) {
+    if (VERBOSE) {
         console.log(text);
     }
 }
@@ -64,12 +66,12 @@ function setRating(rating, done) {
 
 function ratePage(domainsLinked) {
 
-    if(!domainsLinked) return;
+    if (!domainsLinked) return;
 
-    var capNumber = function(num, min, max) {
-        if(num < min) {
+    var capNumber = function (num, min, max) {
+        if (num < min) {
             return min;
-        } else if(num > max) {
+        } else if (num > max) {
             return max;
         }
         return num;
@@ -77,13 +79,13 @@ function ratePage(domainsLinked) {
 
     var domainInfo = JSON.parse(domainsLinked);
 
-    var ratedDomains = Object.keys(DATA.domains).filter(function(v) {
+    var ratedDomains = Object.keys(DATA.domains).filter(function (v) {
         return domainInfo.linkedDomains.indexOf(v) >= 0;
     });
 
     var rating = -1;
 
-    if(ratedDomains.length < 1) {
+    if (ratedDomains.length < 1) {
         rating = 0.5;
     } else {
         var sum = ratedDomains.map(function (v) {
@@ -97,7 +99,7 @@ function ratePage(domainsLinked) {
 
     var existingInfo = DATA.domains[domainInfo.domain];
 
-    if(!existingInfo) {
+    if (!existingInfo) {
         DATA.domains[domainInfo.domain] = {
             rating: rating,
             visits: 1,
@@ -118,7 +120,7 @@ var updating = false,
     dumping = false;
 
 function onTabChange(tab) {
-    if(tab && !updating) {
+    if (tab && !updating) {
         if (tab.url && tab.highlighted) {
             updating = true;
             CURRENT_URL = tab.url;
@@ -139,7 +141,7 @@ function tabChangeWrapper(_, _, tab) {
 
 function onTabActivated(info) {
 
-    if(CURRENT_TAB === info.tabId && CURRENT_WINDOW === info.windowId) {
+    if (CURRENT_TAB === info.tabId && CURRENT_WINDOW === info.windowId) {
         return;
     }
 
@@ -148,7 +150,7 @@ function onTabActivated(info) {
     tabbing = true;
 
     log('Setting tab activation timeout...');
-    setTimeout(function() {
+    setTimeout(function () {
         log('Registering tab activation event...');
         chrome.tabs.get(info.tabId, onTabChange);
     }, 500);
@@ -157,32 +159,45 @@ function onTabActivated(info) {
 
 function post(data, done) {
     log('Posting to ' + TRUMP_BUSTER_URL);
-    // var req = new XMLHttpRequest();
-    // req.open("POST", TRUMP_BUSTER_URL);
-    // req.setRequestHeader("Content-Type", "application/json");
-    // req.send(JSON.stringify(data));
-    done();
+    var req = new XMLHttpRequest();
+    req.open("POST", TRUMP_BUSTER_URL);
+    req.setRequestHeader("Content-Type", "application/json");
+    req.onreadystatechange = function () {
+        if (req.readyState == XMLHttpRequest.DONE) {
+            log('Response to POST data: ' + req.status);
+            done();
+        }
+    };
+    req.send(JSON.stringify(data));
 }
 
 function sendDump() {
     if (DATA && !dumping) {
         dumping = true;
-        post(DATA, function() {
+        var newData = Object.keys(DATA.domains).filter(function (k) {
+            return DATA.domains[k].lastUpdated - LAST_DUMP > 0
+        }).reduce(function (a, k) {
+            a.domains[k] = DATA.domains[k];
+            return a;
+        }, {domains: {}});
+
+        post(newData, function () {
             msg('Trumps dumped...');
+            LAST_DUMP = new Date().getTime();
             dumping = false;
         });
     }
 }
 
 function refreshPage() {
-    chrome.tabs.getSelected(null, function(tab) {
+    chrome.tabs.getSelected(null, function (tab) {
         var code = 'window.location.reload();';
         chrome.tabs.executeScript(tab.id, {code: code});
     });
 }
 
 function getRatingRecord() {
-    if(DATA && CURRENT_URL) {
+    if (DATA && CURRENT_URL) {
         var domain = getDomainFromUrl(CURRENT_URL);
         var d = DATA.domains[domain];
         if (!d) {
@@ -196,7 +211,7 @@ function getRatingRecord() {
 
 function downRate() {
     var r = getRatingRecord();
-    if(r) {
+    if (r) {
         r.rating = 0.001;
         r.visits = 1;
         r.lastUpdated = new Date().getTime();
@@ -208,7 +223,7 @@ function downRate() {
 
 function upRate() {
     var r = getRatingRecord();
-    if(r) {
+    if (r) {
         r.rating = 1;
         r.visits = 1;
         r.lastUpdated = new Date().getTime();
@@ -218,7 +233,7 @@ function upRate() {
     }
 }
 
-chrome.runtime.onMessage.addListener(function(request, _) {
+chrome.runtime.onMessage.addListener(function (request, _) {
     if (request.action == "pageLinks") {
         ratePage(request.source);
     }

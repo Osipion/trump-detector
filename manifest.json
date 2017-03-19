@@ -4,7 +4,7 @@
   "description": "Detects Trumped up news stories",
   "version": "1.0",
   "browser_action": {
-    "default_icon": "res/ok-rating.png",
+    "default_icon": "res/ok-rating-38.png",
     "default_popup": "popup.html"
   },
   "background": {
