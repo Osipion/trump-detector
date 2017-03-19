@@ -1,79 +1,3694 @@
 {
   "domains": {
-    "www.bbc.co.uk": {
+    "bbc.com": {
       "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "www.washingtonpost.com": {
+    "bbc.co.uk": {
       "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "www.badscience.net": {
+    "bostonglobe.com": {
       "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "www.snopes.com": {
+    "chicagotribune.com": {
       "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "www.businessinsider.com": {
+    "independent.co.uk": {
       "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "stackoverflow.com": {
+    "latimes.com": {
       "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "ABCnews.com.co": {
-      "rating": 0.0001,
+    "reuters.com": {
+      "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "Bloomberg.ma": {
-      "rating": 0.0001,
+    "nature.com": {
+      "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "cnn-trending.com": {
-      "rating": 0.0001,
+    "newyorktimes.com": {
+      "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "DrudgeReport.com.co": {
-      "rating": 0.0001,
+    "nydailynews.com": {
+      "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "usatoday.com.co": {
-      "rating": 0.0001,
+    "nytimes.com": {
+      "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "washingtonpost.com.co": {
-      "rating": 0.0001,
+    "oregonlive.com": {
+      "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
     },
-    "Celebtricity": {
-      "rating": 0.0001,
+    "phys.org": {
+      "rating": 1,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882566428
+    },
+    "sltrib.com": {
+      "rating": 1,
+      "visits": 20,
+      "lastUpdated": 1489882566428
+    },
+    "scientificamerican.com": {
+      "rating": 1,
+      "visits": 20,
+      "lastUpdated": 1489882566428
+    },
+    "sfgate.com": {
+      "rating": 1,
+      "visits": 20,
+      "lastUpdated": 1489882566428
+    },
+    "slate.com": {
+      "rating": 1,
+      "visits": 20,
+      "lastUpdated": 1489882566428
+    },
+    "usatoday.com": {
+      "rating": 1,
+      "visits": 20,
+      "lastUpdated": 1489882566428
+    },
+    "washingtonpost.com": {
+      "rating": 1,
+      "visits": 20,
+      "lastUpdated": 1489882566428
+    },
+    "wsj.com": {
+      "rating": 1,
+      "visits": 20,
+      "lastUpdated": 1489882566428
+    },
+    "100percentfedup.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "21stcenturywire.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "24newsflash.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "365usanews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "4threvolutionarywar.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "70news.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "82.221.129.208": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "aanirfan.blogspot.co.uk": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "abcnews.com.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "abcnewsgo.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "abeldanger.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "abovetopsecret.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "abriluno.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "aceflashman.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "Acting-Man.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "activistpost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "addictinginfo.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "adobochronicles.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "advocate.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "aheadoftheherd.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ahtribune.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "allnewspipeline.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "Alt-Market.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "alternativemediasyndicate.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "alternet.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americanblog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americanfreepress.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "AmericanKabuki.blogspot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americanlookout.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americannews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americannewsx.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americanoverlook.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americanpatriotdaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americanprogress.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americanreviewer.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americanthinker.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americantoday.news": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "americasfreedomfighters.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "AmmoLand.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "amplifyingglass.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "amren.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "amtvmedia.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "amusmentic.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ancient-code.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "angrypatriotmovement.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "anonews.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "anonhq.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "anonnews.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "anotherdayintheempire.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "antiwar.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "antoniusaquinas.wp.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "asia-pacificresearch.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "assassinationscience.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "associatedmediacoverage.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "attn.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "AutomaticEarth.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "automotostar.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "awarenessact.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "awazetribune.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "awdnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "awm.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "BadSquad.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "baptistnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "barenakedislam.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "BB4SP.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "beehivebugle.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "beforeitsnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "betootaadvocate.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bients.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bigamericannews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bigbluedimension.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bigbluevision.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bigbluevision.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bighairynews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bignuggetnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bigpzone.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bipartisanreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "blackagendareport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "blackgenocide.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "blacklistednews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bluenationreview.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "Boilingfrogspost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "borowitzreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bostonleader.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "breaking911.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "breakpoint.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "breitbart.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "BrotherJohnF.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "BullionBullsCanada.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "burrardstreetjournal.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "buzzfeedusa.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "bvanews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "callthecops.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "canadafreepress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "cap-news.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "cato.org/blog": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "cbsnews.com.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "celebtricity.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "centerforsecuritypolicy.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "channel-7-news.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "charismanews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "chaser.com.au": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "checkoutthehealthyworld.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "chicksontheright.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "christianfightback.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "christianpost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "christiantimesnewspaper.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "christwire.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "chronicle.su": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "chroniclesmagazine.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "citizensunited.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "city-journal.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "cityworldnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "civictribune.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "clashdaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "clickhole.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "cnnnext.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "CNSNews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "coasttocoastam.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "collective-evolution.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "collectivelyconscious.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ComingDepression.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "commentarymagazine.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "commondreams.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "concisepolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "consciouslifenews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservapedia.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativebyte.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativedailypost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativefiringline.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativefrontline.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativeheadlines.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativehq.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativeinfidel.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativeoutfitters.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativepapers.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativerefocus.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativereview.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativespirit.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativestate.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conservativetribune.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "consortiumnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conspiracyplanet.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "conspiracywire.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "corbettreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "countdowntozerotime.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "countercurrentnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "countercurrents.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "counterinformation.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "counterjihad.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "counterpsyops.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "counterpunch.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "counterpunch.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "cowgernation.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "creambmp.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "cryptogon.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "crystalair.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailybuzzlive.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailycaller.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailycurrant.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailydiscord.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailyheadlines.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailyheadlines.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailyken.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailykos.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailyleak.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailynewsbin.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailynewspolitic.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailyoccupation.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailypolitics.info": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailypoliticsusa.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailysignal.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailysquib.co.uk": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailystormer.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailytelegraph.com.au": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dailywire.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dandygoat.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "darkmoon.me": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "darkpolitricks.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dataasylum.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "DaveJanda.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "davidduke.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "davidstockmanscontracorner.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "davidwolfe.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dcclothesline.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dcgazette.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dcleaks.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "DeadLineLive.info": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "DeadlyClear.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "debunkingskeptics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "defenddemocracy.press": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "delectabledietofpics.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dennismichaellynch.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "denverguardian.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "departed.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "der-postillon.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "derfmagazine.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dineal.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "disclose.tv": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "disclosuremedia.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "dissentmagazine.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "diversitychronicle.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "DollarVigilante.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "donaldtrumpnews.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "Dont-Tread-On.Me": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "downtrend.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "DProgram.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "drudgereport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "drudgereport.com.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "duffleblog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "duhprogressive.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "Dutchsinse.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "EagleRising.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "EbolaHoax.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "economicnoise.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ecowatch.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "educate-yourself.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "educateinspirechange.org/health": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "electionnightgatekeepers.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "elelephantintheroom.blogspot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "elitereaders.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "elkoshary.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "elmundotoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "embols.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "empireherald.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
     },
     "empirenews.net": {
-      "rating": 0.0001,
+      "rating": 0.000001,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882731560
+    },
+    "empiresports.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "Emptywheel.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "enabon.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "endingthefed.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "endoftheamericandream.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "endtime.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "enduringvision.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "english.ruvr.ru": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "EUTimes.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "eutopia.buzz": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "everydayworldnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "everythingnewdaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ewao.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ExperimentalVaccines.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "Expose1933.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "express.co.uk": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "extraclubmagazine.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "eyeopening.info": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fakingnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "familysecuritymatters.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fantasticword.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "FarmWars.info": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "federalistpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fellowshipoftheminds.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "filmsforaction.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "FinancialSurvivalNetwork.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "firearmscoalition.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "floridasunpost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "flyheight.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fmobserver.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fognews.ru": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "foodbabe.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "foreignpolicyjournal.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fort-russ.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fourwinds10.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fprnradio.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "freakoutnation.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "FreeBeacon.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "freedomdaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "FreedomForceInternational.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "freedomoutpost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "FreedomsPhoenix.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "freedomworks.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "freedomworldnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "freepatriot.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "freewoodpost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fridaymash.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fromthetrenchesworldreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "frontpagemag.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "fusion.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "gaia.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "galacticconnection.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "gangstergovernment.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "gatesofvienna.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "geoengineeringwatch.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "geopolmonitor.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "glaringhypocrisy.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "GlobalEconomicAnalysis.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "globalresearch.ca": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "glossynews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "godlikeproductions.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "gomerblog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "goneleft.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "GonzaloLira.Blogspot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "gopthedailydose.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "govtslaves.info": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "greanvillepost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "GreenMedInfo.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "guardianlv.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "guccifer2.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "gulagbound.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "hangthebankers.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "healthimpactnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "healthnutnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "healthy-holistic-living.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "heartland.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "heatst.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "henrymakow.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "heresyblog.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "holyobserver.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "humansarefree.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "humortimes.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "huzlers.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ifyouonlynews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ihavethetruth.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ijr.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ilovemyfreedom.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "immediatesafety.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "in5d.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "indiaarising.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "informationclearinghouse.info": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "informetoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "infostormer.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "infowars.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "instaworldnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "intellihub.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "intrendtoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "intrepidreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "investmentresearchdynamics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "investmentwatchblog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ironictimes.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "islamicanews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "itaglive.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ItMakesSenseBlog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "iwanttoexplore.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "jackpineradicals.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "jacobinmag.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "jamesrgrangerjr.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "jesus-is-savior.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "jewsnews.co.il": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "johnnyrobish.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "jonesreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "journal-neo.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "katehon.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "katehon.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "landoverbaptist.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "learnprogress.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "legorafi.fr": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lewrockwell.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "liberalamerica.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "liberalbias.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "liberaldarkness.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "libertyblitzkrieg.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "libertyfederation.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "libertymovementradio.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "libertynews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "libertytalk.fm": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "libertyunyielding.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "libertyvideos.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "libertywritersnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lifeandabout.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lifenews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lifeprevention.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lifesitenews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lifezette.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lightlybraisedturnip.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "liveactionnews.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "livefreelivenatural.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "livevote.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lovethispic.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "lushforlife.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "madpatriots.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "madworldnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "magafeed.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "makeamericagreattoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "mediamass.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "mediazone.news": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "megafreshnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "megynkelly.us": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "militianews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "mintpressnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "moonofalabama.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "morningnewsusa.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "mpidailymagazine.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "mrconservative.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "msnbc.website": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "mydailyrelaxation.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "myfreshnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "myzonetoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nahadaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nakedcapitalism.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nationalreport.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nationindistress.weebly.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nationonenews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "naturalblaze.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "naturalnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nbc.com.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nbcpolitics.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nbcpoll.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "ncscooper.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "nevo.news": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "newcenturytimes.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "newcoldwar.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "news4ktla.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "newsbbc.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "newsbiscuit.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "newsbreakers.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "newsbuzzdaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "newscenterusa.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731560
+    },
+    "newscorpse.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newsexaminer.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newsfrompolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newslo.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "Newsmax.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newsmutiny.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newsninja2012.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newsopening.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newstarget.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newsthump.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newstoad.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newswatch28.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newswatch33.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newswire-24.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newswithviews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "newyorker.com/humor": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "nodisinfo.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "NoMoreFakeNews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "northcrane.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "notallowedto.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "now8news.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "nowtheendbegins.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "npiamerica.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "nutritionfacts.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "nymeta.co": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "nyuzer.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "objectiveministries.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "occupydemocrats.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "occupyliberals.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "odgossip.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "off-guardian.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "oftwominds.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "oilgeopolitics.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "onlineconservativepress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "opednews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "openmindmagazine.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "orientalreview.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "other98.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "pakalertpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "palmerreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "pamelageller.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "patdollar.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "patriotchronicle.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "patriotnewsdaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "patriotrising.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "patriotupdate.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "paulcraigroberts.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "platosguns.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicalblindspot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicalcult.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicalears.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicalo.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicalsitenews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicaltimes.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicalupdator.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicops.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicsbreaking.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicsinformation.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicsinfotoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicsintheusa.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicsinusa.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "politicususa.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "powerpoliticians.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "pravda.ru": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "pravdareport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "prepperwebsite.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "presidentialvoting2016.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "press24.us": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "presstv.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "presstv.ir": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "prisonplanet.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "prisonplanet.tv": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "prntly.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "projectveritas.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "proudcons.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "proudemocrat.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "qpolitical.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "randpaulreview.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rawforbeauty.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rawstory.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rawws.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rbth.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "react365.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "readconservatives.news": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "readynutrition.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "reagancoalition.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "realfarmacy.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "realnewsrightnow.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "realplanetnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "realprogress.online": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "realtimepolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "redflagnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "redstate.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "redstatewatcher.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "reductress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "regated.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "remedydaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rense.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "responsibletechnology.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "returnofkings.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "revolutions2040.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rhotv.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rickwells.us": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rightalert.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "righton.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rightwingnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rilenews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rinf.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rockcitytimes.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "ronpaulinstitute.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "rumormillnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "ruptly.tv": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "russia-direct.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "russia-insider.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "satiratribune.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "satirewire.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "scrappleface.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "secretsofthefed.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "sensationalisttimes.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "sentinelblog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "shareblue.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "sheepkillers.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "shoebat.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "Silver-Coin-Investor. com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "SilverBearCafe.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "SilverDoctors.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "SilverStealers.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "SJLendman.Blogspot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "skeptiko.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "sonsoflibertyradio.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "SovereignMan.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "speld.nl": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "sportspickle.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "sputniknews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "stneotscitizen.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "stormcloudsgathering.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "stuppid.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "subjectpolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "success-street.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "supremepatriot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "surrealscoop.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theamericanindependent.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theantimedia.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thebeaverton.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theblaze.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thebostontribune.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thecommonsenseshow.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thecontroversialfiles.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thedailybeast.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thedailymash.co.uk": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thedailysheeple.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thedailywtf.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theduran.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theeconomiccollapseblog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theeventchronicle.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "TheExtinctionProtocol.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thefederalistpapers.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thefifthcolumnnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theforbiddenknowledge.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thefreepatriot.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thefreethoughtproject.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thegatewaypundit.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thegoldandoilguy.com/articles": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thehardtimes.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theineptowl.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theinformedamerican.net": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thelastgreatstand.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thelibertybeacon.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thelibertymill.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "themadisonmisnomer.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "themindunleashed.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "themindunleashed.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "themuslimissue.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thenewinquiry.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thenewsnerd.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theonion.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thephaser.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thepoke.co.uk": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thepoliticalcesspool.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thepoliticalinsider.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theracketreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "therealstrategy.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thereporterz.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "therightists.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "therightscoop.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "therightstuff.biz": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theshovel.com.au": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theskunk.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thespoof.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thestatelyharold.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thetimesoftheworld.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thetruthdivision.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thetruthseeker.co.uk": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theunrealtimes.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "theuspatriot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thevalleyreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "thewatchtowers.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "threepercenternation.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "topekasnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "topinfopost.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "TrueActivist.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "truepundit.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "trumpvision365.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "truthandaction.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "truthbroadcastnetwork.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "truthfeed.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "truthfrequencyradio.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "truthkings.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "truthrevolt.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "twitchy.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "ufoholic.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "unclesamsmisguidedchildren.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "unconfirmedsources.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "undergroundworldnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "unitedmediapublishing.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "universepolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "unz.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "us.blastingnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usa2016elections.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usadailypolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usadailytime.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usahitman.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usainfobox.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usamagazinestudio.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usanewsflash.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usanewsinsider.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usanewspolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usaonlinepolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usaphase.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usapoliticsdaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usapoliticsnow.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usapoliticstoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usapoliticus.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usascan.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usasupreme.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usatwentyfour.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "USAWatchdog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "uschronicle.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usconservativetoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usdefensewatch.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usfanzone.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "ushealthyadvisor.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usherald.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "uslifetoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "uspoliticslive.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usuncut.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "usviewer.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "vdare.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "veteransnewsnow.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "veteranstoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "vigilantcitizen.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "viralliberty.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "viraltube.nl": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wakeupthesheep.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wakingtimes.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wakingupwisconsin.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "WallStreetOnParade.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "washingtonexaminer.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "washingtonsblog.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "waterfordwhispersnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wealthcycles.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wealthwire.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wearechange.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "weaselzippers.us": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "webdaily.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "weeklystandard.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "weeklyworldnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "weshapelife.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "westernjournalism.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "whatdoesitmean.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "whatreallyhappened.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "whitepower.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "whowhatwhy.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "whowhatwhy.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "whydontyoutrythis.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "WideAwakeNews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wikileaks.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wikileaks.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wikispooks.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "WilliamBanzai7.blogspot.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "Willyloman.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "winkprogress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "winningdemocrats.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "witscience.org": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wnd.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "WolfStreet.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wonkie.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "world24monitor.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worldcallyoutoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worlddaily.info": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worldnewsdailyreport.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worldnewspolitics.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worldpoliticsus.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worldrumor.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worldstoriestoday.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worldtruth.tv": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "worldwidehealthy.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wtoe5news.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "wundergroundmusic.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "www.rt.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "X22Report.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "yellowhammernews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "yesimright.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "Youngcons.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "yourfunpage.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "yournationnews.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "YourNewsline.wordpress.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
     },
     "yournewswire.com": {
-      "rating": 0.0001,
+      "rating": 0.000001,
       "visits": 20,
-      "lastUpdated": 0
+      "lastUpdated": 1489882731561
+    },
+    "zaytung.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "Zengardner.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "zerohedge.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
+    },
+    "zootfeed.com": {
+      "rating": 0.000001,
+      "visits": 20,
+      "lastUpdated": 1489882731561
     }
   }
 }

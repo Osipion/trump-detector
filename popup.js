@@ -42,10 +42,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     upRateBtn.addEventListener('click', function() {
         BACKGROUND_PAGE.upRate();
+        renderRating();
     });
 
     downRateBtn.addEventListener('click', function() {
         BACKGROUND_PAGE.downRate();
+        renderRating();
     });
 
 });

@@ -3,7 +3,7 @@ var DATA = null,
     CURRENT_URL = null,
     CURRENT_TAB = -1,
     CURRENT_WINDOW = -1,
-    TRUMP_BUSTER_URL = 'steve.aws.com',
+    TRUMP_BUSTER_URL = 'somewhere',
     VERBOSE = false;
 
 function msg(text) {
@@ -200,6 +200,7 @@ function downRate() {
         r.rating = 0.001;
         r.visits = 1;
         r.lastUpdated = new Date().getTime();
+        CURRENT_RATING = r.rating;
         refreshPage();
         msg('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 0.1%');
     }
@@ -211,6 +212,7 @@ function upRate() {
         r.rating = 1;
         r.visits = 1;
         r.lastUpdated = new Date().getTime();
+        CURRENT_RATING = r.rating;
         refreshPage();
         msg('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 100%')
     }
