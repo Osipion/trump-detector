@@ -1,6 +1,6 @@
 function getDomainFromUrl(url) {
     var d = (url || '').match(/^[\w-]+:\/{2,}\[?([\w\.:-]+)\]?(?::[0-9]*)?/);
-    if(d) return d[1];
+    if(d) return d[1].replace(/^www\./, '');
     return null;
 }
 
@@ -29,12 +29,15 @@ function getLinks() {
 
 function highlightBadLinks(linkInfo) {
     var links = getLinkArray();
-
     linkInfo.badLinks.forEach(function(bL) {
        links.filter(function(l) {
            return getDomainFromUrl(l.href) == bL;
        }).forEach(function(l) {
-           l.className = 'fakeNews';
+           if(getDomainFromUrl(l.href) == bL) {
+               l.className = 'fakeNews';
+           } else if(l.className === 'fakeNews') {
+               l.className = '';
+           }
        })
     });
 }
@@ -43,15 +46,21 @@ function addFakeNewsBanner() {
 
 }
 
-chrome.runtime.sendMessage({
-    action: "pageLinks",
-    source: getLinks(document)
-});
+function sendLinks() {
+    chrome.runtime.sendMessage({
+        action: "pageLinks",
+        source: getLinks(document)
+    });
+}
+
+setTimeout(sendLinks, 100);
 
 chrome.extension.onMessage.addListener(function(msg) {
     if(msg.action === 'markBadContent'){
         highlightBadLinks(JSON.parse(msg.source));
     } else if(msg.action === 'addFakeBanner') {
         addFakeNewsBanner();
+    } else if(msg.action === 'getLinks') {
+        sendLinks();
     }
 });

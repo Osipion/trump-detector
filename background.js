@@ -33,7 +33,8 @@ function loadData(done) {
 }
 
 function getDomainFromUrl(url) {
-    return (url || '').match(/^[\w-]+:\/{2,}\[?([\w\.:-]+)\]?(?::[0-9]*)?/)[1];
+    return (url || '').match(/^[\w-]+:\/{2,}\[?([\w\.:-]+)\]?(?::[0-9]*)?/)[1]
+        .replace(/^www\./, '');
 }
 
 function calculateRating(url, done) {
@@ -139,11 +140,6 @@ function tabChangeWrapper(_, _, tab) {
 }
 
 function onTabActivated(info) {
-
-    if (CURRENT_TAB === info.tabId && CURRENT_WINDOW === info.windowId) {
-        return;
-    }
-
     CURRENT_TAB = info.tabId;
     CURRENT_WINDOW = info.windowId;
     tabbing = true;
@@ -255,8 +251,15 @@ function addFakeBanner() {
 
 function updatePopup() {
     log('requesting popup update');
-    chrome.runtime.sendMessage.sendMessage({
+    chrome.runtime.sendMessage({
         action: 'update'
+    });
+}
+
+function refreshLinks() {
+    log('requesting popup update');
+    chrome.tabs.sendMessage(CURRENT_TAB, {
+        action: 'getLinks'
     });
 }
 
