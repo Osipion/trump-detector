@@ -29,6 +29,7 @@ function getLinks() {
 
 function highlightBadLinks(linkInfo) {
     var links = getLinkArray();
+
     linkInfo.badLinks.forEach(function(bL) {
        links.filter(function(l) {
            return getDomainFromUrl(l.href) == bL;

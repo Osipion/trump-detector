@@ -50,4 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
         renderRating();
     });
 
+    chrome.runtime.onMessage.addListener(function(message) {
+        if (message.action === 'update') {
+            renderRating();
+        }
+    });
+
 });

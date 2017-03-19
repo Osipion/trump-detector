@@ -216,7 +216,7 @@ function downRate() {
         r.lastUpdated = new Date().getTime();
         CURRENT_RATING = r.rating;
         refreshPage();
-        msg('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 0.1%');
+        log('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 0.1%');
     }
 }
 
@@ -228,7 +228,7 @@ function upRate() {
         r.lastUpdated = new Date().getTime();
         CURRENT_RATING = r.rating;
         refreshPage();
-        msg('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 100%')
+        log('Rating for ' + getDomainFromUrl(CURRENT_URL) + ' changed to 100%')
     }
 }
 
@@ -253,14 +253,22 @@ function addFakeBanner() {
     });
 }
 
+function updatePopup() {
+    log('requesting popup update');
+    chrome.runtime.sendMessage.sendMessage({
+        action: 'update'
+    });
+}
+
 chrome.runtime.onMessage.addListener(function (request, _) {
     if (request.action == "pageLinks" && request.source) {
         var domainInfo = JSON.parse(request.source);
-        var rating = ratePage(domainInfo);
+        CURRENT_RATING = ratePage(domainInfo).rating;
         markBadContent(domainInfo);
-        if(rating.rating < 0.3) {
+        if(CURRENT_RATING < 0.3) {
             addFakeBanner();
         }
+        updatePopup();
     }
 });
 
